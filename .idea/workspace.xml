@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="spring-mvc-01:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="678e280b-c65b-4855-bb0a-a73910f5b790" name="Changes" comment="登">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/spring_mvc_01_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/spring_mvc_01_war_exploded2/WEB-INF/classes/com/hzlx/controller/TestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/spring_mvc_01_war_exploded2/WEB-INF/classes/springMVC-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/spring_mvc_01_war_exploded2/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/spring_mvc_01_war_exploded2/WEB-INF/lib/aspectjweaver-1.9.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/spring_mvc_01_war_exploded2/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/spring_mvc_01_war_exploded2/WEB-INF/lib/druid-1.1.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/spring_mvc_01_war_exploded2/WEB-INF/lib/micrometer-commons-1.10.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/spring_mvc_01_war_exploded2/WEB-INF/lib/micrometer-observation-1.10.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/spring_mvc_01_war_exploded2/WEB-INF/lib/mysql-connector-j-8.0.31.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/spring_mvc_01_war_exploded2/WEB-INF/lib/protobuf-java-3.19.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/spring_mvc_01_war_exploded2/WEB-INF/lib/spring-aop-6.0.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/spring_mvc_01_war_exploded2/WEB-INF/lib/spring-aspects-5.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/spring_mvc_01_war_exploded2/WEB-INF/lib/spring-beans-6.0.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/spring_mvc_01_war_exploded2/WEB-INF/lib/spring-context-6.0.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/spring_mvc_01_war_exploded2/WEB-INF/lib/spring-core-6.0.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/spring_mvc_01_war_exploded2/WEB-INF/lib/spring-expression-6.0.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/spring_mvc_01_war_exploded2/WEB-INF/lib/spring-jcl-6.0.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/spring_mvc_01_war_exploded2/WEB-INF/lib/spring-jdbc-6.0.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/spring_mvc_01_war_exploded2/WEB-INF/lib/spring-orm-6.0.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/spring_mvc_01_war_exploded2/WEB-INF/lib/spring-test-6.0.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/spring_mvc_01_war_exploded2/WEB-INF/lib/spring-tx-6.0.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/spring_mvc_01_war_exploded2/WEB-INF/lib/spring-web-6.0.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/spring_mvc_01_war_exploded2/WEB-INF/lib/spring-webmvc-6.0.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/spring_mvc_01_war_exploded2/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/spring_mvc_01_war_exploded2/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/spring_mvc_01_war_exploded2/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/java/com/hzlx/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/java/com/hzlx/entity/BusinessInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/java/com/hzlx/mapper/BusinessInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/java/com/hzlx/service/BusinessInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/java/com/hzlx/service/impl/BusinessInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/resources/com/hzlx/mapper/BusinessInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/resources/springMVC-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/WEB-INF/pages/system/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/WEB-INF/pages/system/homepage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/WEB-INF/pages/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/images/bgc.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/images/pwd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/images/user_name.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layui/font/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/json/console/prograss.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/json/console/top-card.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/json/console/top-search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/json/content/comment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/json/content/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/json/content/tags.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/json/forum/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/json/forum/replys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/json/layim/getList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/json/layim/getMembers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/json/message/all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/json/message/direct.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/json/message/new.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/json/message/notice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/json/table/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/json/table/demo1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/json/table/demo2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/json/table/demo3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/json/table/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/json/table/user30.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/json/user/logout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/json/user/new.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/json/user/session.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/json/useradmin/mangadmin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/json/useradmin/role.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/json/useradmin/webuser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/json/workorder/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/css/modules/layim/html/chatlog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/css/modules/layim/html/find.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/css/modules/layim/html/msgbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/css/modules/layim/layim.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/css/modules/layim/skin/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/css/modules/layim/skin/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/css/modules/layim/skin/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/css/modules/layim/skin/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/css/modules/layim/skin/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/lay/modules/layim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/lib/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/lib/extend/echarts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/lib/extend/echartsTheme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/lib/view.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/modules/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/modules/console.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/modules/contlist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/modules/forum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/modules/im.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/modules/message.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/modules/sample.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/modules/senior.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/modules/set.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/modules/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/modules/useradmin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/modules/workorder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/style/admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/style/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/style/res/avatar/168.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/style/res/fly/avatar/00.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/style/res/layui-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/style/res/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/style/res/template/character.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/style/res/template/huge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/style/res/template/portrait.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/style/template.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/tpl/layim/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/tpl/system/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-01/src/main/webapp/static/layuiadmin/tpl/system/theme.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Properties" />
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="mybatis-mapper" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.9.1" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="E:\学习盘\最新版\apache-maven-3.9.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Pb08w0o75fOKq6fosulWwSPbLV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "E:/学习盘/最新版/编程/spring-mvc",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.19688109",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "spring.configuration.checksum": "59ef1fc014b8f42e3599fc1a8dca5326",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\学习盘\最新版\编程\spring-mvc\spring-mvc-01\src\main\java\com\hzlx\controller\entity" />
+      <recent name="E:\学习盘\最新版\编程\spring-mvc\spring-mvc-01\src\main\resources" />
+      <recent name="E:\学习盘\最新版\编程\spring-mvc\spring-mvc-01\src\main\webapp\WEB-INF\pages\system" />
+      <recent name="E:\学习盘\最新版\编程\spring-mvc\spring-mvc-01\src\main\webapp\static" />
+      <recent name="E:\学习盘\最新版\编程\spring-mvc\spring-mvc-01\src\main\webapp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\学习盘\最新版\编程\spring-mvc\spring-mvc-01\src\main\webapp\WEB-INF\pages" />
+      <recent name="E:\学习盘\最新版\编程\spring-mvc\spring-mvc-01\src\main\webapp\WEB-INF" />
+      <recent name="E:\学习盘\最新版\编程\spring-mvc\spring-mvc-01\src\main\webapp\WEB-INF\pages\system" />
+      <recent name="E:\学习盘\最新版\编程\spring-mvc\spring-mvc-01\src\main\webapp\WEB-INF\system" />
+      <recent name="E:\学习盘\最新版\编程\spring-mvc\spring-mvc-01\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat-10.1.5" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat-10.1.5" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="spring-mvc-01:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/spring_mvc_01_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="b81f8f6c-d5ce-4427-b7ae-928e3e6aae63" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63277" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="spring-mvc-01:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="678e280b-c65b-4855-bb0a-a73910f5b790" name="Changes" comment="" />
+      <created>1683710319290</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683710319290</updated>
+      <workItem from="1683710320663" duration="1905000" />
+      <workItem from="1683717953583" duration="236000" />
+      <workItem from="1683719124861" duration="17000" />
+      <workItem from="1683720269674" duration="3481000" />
+      <workItem from="1683765426549" duration="1683000" />
+      <workItem from="1683767127122" duration="10042000" />
+      <workItem from="1683785301653" duration="3303000" />
+      <workItem from="1683788637686" duration="311000" />
+      <workItem from="1683788957552" duration="399000" />
+      <workItem from="1683789366774" duration="480000" />
+      <workItem from="1683789857134" duration="844000" />
+    </task>
+    <task id="LOCAL-00001" summary="登录">
+      <created>1683790182761</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683790182761</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="登录" />
+    <MESSAGE value="登" />
+    <option name="LAST_COMMIT_MESSAGE" value="登" />
+  </component>
+</project>

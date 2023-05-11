@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sub_btn{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #92ece6;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+body {
+    position: relative;
+    background-color: #f6f6f6;
+}
+
+.bgc {
+
+    background-image: linear-gradient(to bottom right, #92ece6, #bdf8d2);
+    border-radius: 30% 70% 59% 41% / 39% 34% 66% 61%;
+    animation: bgcanimation 10s infinite;
+    position: absolute;
+    z-index: -999;
+}
+
+.bgc:nth-child(1) {
+    width: 65%;
+    padding: 45% 0 0;
+    top: 2px;
+    left: 26%;
+}
+
+.bgc:nth-child(2) {
+    width: 40%;
+    padding: 30% 0 0;
+    top: 100px;
+    left: 8%;
+}
+
+@keyframes bgcanimation {
+    0% {
+        border-radius: 30% 70% 59% 41% / 39% 34% 66% 61%;
+    }
+
+    50% {
+        border-radius: 56% 44% 31% 69% / 50% 59% 41% 50%
+    }
+
+    100% {
+        border-radius: 30% 70% 59% 41% / 39% 34% 66% 61%;
+    }
+}
+
+.login_box {
+    position: absolute;
+    width: 80%;
+    height: 600px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    /* box-shadow: 0px 0px 2px 0px rgba(0 , 0, 0, .5); */
+    left: 10%;
+    top: 40px;
+    border-radius: 5px;
+}
+
+.title_h1 {
+    width: 30%;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 1.5%;
+    margin-left: -20px;
+    padding-left: 10px;
+    border-radius: 5px 5px 5px 0px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #92ece6;
+    position: relative;
+}
+
+.title_h1::before {
+    position: absolute;
+    content: "";
+    /* width: 20px;
+    height: 20px; */
+    background-color: #bdf8d2;
+    bottom: -20px;
+    left: 0;
+    border-top: 1px solid black;
+    border-left: 20px solid transparent;
+    border-right: 0 solid transparent;
+    border-bottom: 20px solid #f6f6f6;
+    transform: rotateY(180deg);
+}
+
+.div_l {
+    width: 55%;
+    float: left;
+    margin-top: 4%;
+}
+
+.div_l>img {
+    width: 100%;
+}
+
+.div_r {
+    width: 34%;
+    border: 1x solid black;
+    float: right;
+    margin-right: 10%;
+    margin-top: 2%;
+}
+
+.div_r>div:nth-child(1) {
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 华文新魏;
+}
+
+.div_r div:nth-child(2) {
+    margin-top: 15px;
+    font-family: 华文新魏;
+}
+
+/* .div_r div:nth-child(3){
+    margin-top: 12%;
+}
+.div_r div:nth-child(3)>input {
+    width: 80%;
+    height: 35px;
+    font-size: 20px;
+    line-height: 25px;
+    padding-left: 2px;
+    margin-bottom: 10px;
+    border-radius: 0 5px 5px 0px;
+} */
+.input_box {
+    font-family: 华文新魏;
+    color: #7c7c7c;
+    padding-top: 5px;
+}
+
+.input_img {
+    width: 35px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.input_box>input[name="userName"]{
+    width: calc(100% - 55px);
+    height: 35px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+.input_box>input[name="pwd"]{
+    width: calc(100% - 55px);
+    height: 35px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    padding-left: 10px;
+    border: 1px solid #ececec;
+}
+.m_top_12{
+    height: 60px;
+    margin-top: 12%;
+    /* background-color: #f6f6f6; */
+    background-color: #bdf8d2;
+    border-radius:  5px 5px 0px 0px;
+}
+.m_top_1{
+    box-sizing: border-box;
+    border-left: 1px solid #ececec;
+    border-right: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+    border-radius: 0px 0px 5px 5px;
+    height: 70px;
+}
